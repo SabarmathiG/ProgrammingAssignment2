@@ -20,8 +20,9 @@ get <- function() x{
 }
 
 
-## Write a short comment describing this function
-# Computes the Matrix inverse of an invertible Matrix
+# Write a short comment describing this function
+#  This function helps to inverse the matrix 
+# and return the invertiblematrix
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
