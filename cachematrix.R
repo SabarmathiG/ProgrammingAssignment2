@@ -9,14 +9,13 @@ set<-function(y){
   x<<-y
   i<<-NULL
 }
-get <- function() x{
+get <- function(x) {
   setmatrix_inverse<-function(inverse) i<<-inverse
   getmatrix_inverse<- function() i
   list(set = set, get = get ,
        setmatrix_inverse = setmatrix_inverse,
        getmatrix_inverse = getmatrix_inverse)
 }
-
 }
 
 
